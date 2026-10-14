@@ -1,0 +1,13 @@
+# 빌드 산출물
+build/
+.gradle/
+out/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
