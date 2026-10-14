@@ -22,7 +22,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("com.github.Extra-04:Trail-API:1.0.0")
+    compileOnly("com.github.Extra-04:Trail-API:v1.0.0")
 }
 ```
 
@@ -34,7 +34,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'com.github.Extra-04:Trail-API:1.0.0'
+    compileOnly 'com.github.Extra-04:Trail-API:v1.0.0'
 }
 ```
 
@@ -49,10 +49,12 @@ dependencies {
 <dependency>
     <groupId>com.github.Extra-04</groupId>
     <artifactId>Trail-API</artifactId>
-    <version>1.0.0</version>
+    <version>v1.0.0</version>
     <scope>provided</scope>
 </dependency>
 ```
+
+`v` 가 붙은 것은 깃 태그 이름 그대로입니다 (JitPack 은 태그 이름을 버전으로 씁니다).
 
 `compileOnly` / `provided` 로 넣으세요. API 클래스는 서버에 설치된 Trail 플러그인이 이미 갖고 있으므로, 여러분의 jar에 함께 넣으면 클래스가 중복됩니다.
 
